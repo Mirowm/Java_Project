@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="xmlHandlerApp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/xmlHandlerApp_jar</output-path>
+    <root id="archive" name="xmlHandlerApp.jar">
+      <element id="module-output" name="xmlHandlerApp" />
+    </root>
+  </artifact>
+</component>
