@@ -4,8 +4,9 @@ import lombok.Data;
 
 @Data
 public class ADDRObj {
-    private String objectID, name, typeName;
-
+    private String objectID, name, address, typeName, activeParent;
+//    private int isActual;
+//    private int isActive;
     public ADDRObj(String objectID, String name, String typeName) {
         this.objectID = objectID;
         this.name = name;
@@ -16,6 +17,10 @@ public class ADDRObj {
 
     @Override
     public String toString() {
-        return String.format("%s: %s %s",objectID, typeName, name);
+        return String.format("%s %s", typeName, name);
     }
+//    public String toString() {
+//        return address;
+//    }
+
 }
